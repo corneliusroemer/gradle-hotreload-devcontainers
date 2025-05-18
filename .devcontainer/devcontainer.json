@@ -1,0 +1,17 @@
+{     
+  "name": "DevContainer",     
+  "dockerComposeFile": "./compose.yaml",
+  "service": "spring",
+  "workspaceFolder": "/workspace",
+  "shutdownAction": "stopCompose", 
+  "customizations": {         
+    "vscode": {             
+      "extensions": [ 
+        "vscjava.vscode-java-pack",
+        "vscjava.vscode-gradle",
+        "vscjava.vscode-spring-boot-dashboard"
+       ]         
+     }     
+   },     
+  "remoteUser": "root" 
+}
